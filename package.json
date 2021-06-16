@@ -1,0 +1,21 @@
+{
+  "name": "curso-cypress",
+  "version": "1.0.0",
+  "description": "Curso Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "keywords": [
+    "cypress",
+    "test",
+    "automation",
+    "e2e"
+  ],
+  "author": "Jacqueline Pereira",
+  "license": "MIT",
+  "dependencies": {
+    "cypress": "^7.5.0",
+    "mocha": "^9.0.0"
+  }
+}
