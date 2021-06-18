@@ -1,0 +1,23 @@
+name: E2E Testing
+
+on:
+  pull_request:
+  push:
+
+jobs:
+  e2e:
+
+    runs-on: ubuntu-20.04
+
+    steps:
+      - name: Project checkout
+        uses: actions/checkout@v2
+
+      - name: Node.js Setup
+        uses: actions/setup-node@v2
+
+      - name: Installation of Node.js dependencies
+        run: npm install
+
+      - name: Run E2E test
+        run: npm test
