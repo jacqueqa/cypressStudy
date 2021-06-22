@@ -2,16 +2,9 @@
   "name": "curso-cypress",
   "version": "1.0.0",
   "description": "Curso Cypress",
-  "main": "index.js",
   "scripts": {
     "test": "cypress run"
   },
-  "keywords": [
-    "cypress",
-    "test",
-    "automation",
-    "e2e"
-  ],
   "author": "Jacqueline Pereira",
   "license": "MIT",
   "dependencies": {

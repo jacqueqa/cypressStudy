@@ -1,0 +1,17 @@
+name: Lista de todos os diretórios
+
+on:
+  pull_request:
+  push:
+
+jobs:
+  listalldir:
+
+    runs-on: ubuntu-20.04
+
+    steps:
+      - name: Project checkout
+        uses: actions/checkout@v2
+
+      - name: Run Directory List
+        run: ls -la
